@@ -134,3 +134,11 @@ Result: The final output appears in the right-hand panel, ready to copy.
 
 ### 🔒 Security Note
 This repository utilizes a .gitignore file to ensure that the .env file containing API keys is never uploaded to the public repository.
+
+---
+
+<img width="1354" height="644" alt="example-1" src="https://github.com/user-attachments/assets/9dee77b2-2b7a-487c-9a45-6f653f535d01" />
+
+<img width="1353" height="642" alt="example-3" src="https://github.com/user-attachments/assets/4cebba9d-8bf0-4462-9147-dce48b9ca6b7" />
+
+
