@@ -57,7 +57,7 @@ Follow these steps to run the project locally.
 * Python 3.10+ installed.
 * API Keys for **Google Gemini** and **Groq**.
 
-### Step 1: Clone the Repository
+Step 1: Clone the Repository
 
     git clone [https://github.com/harsh-096/prompt_refiner.git](https://github.com/harsh-096/prompt_refiner.git)
     cd prompt_refiner
@@ -110,6 +110,9 @@ Open your browser at the URL shown (usually http://localhost:5173).
     │   │   └── App.css       # Styling
     │   └── package.json
     └── README.md             # Documentation
+
+---
+
 🧪 How to Test (Sample Workflow)
 Select Input: Type "I need a chatbot for Gujarat students."
 
@@ -127,7 +130,9 @@ Llama 3 critiques it, removes the "Sure! I can help," and formats it into the st
 
 Result: The final output appears in the right-hand panel, ready to copy.
 
-🔒 Security Note
+---
+
+### 🔒 Security Note
 This repository utilizes a .gitignore file to ensure that the .env file containing API keys is never uploaded to the public repository.
 
 Submitted by: Harsh Parmar For: Dignifiedme Technologies Internship Task
