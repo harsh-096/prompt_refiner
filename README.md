@@ -14,13 +14,13 @@ Unlike standard wrappers that use a single AI model, this project employs a **Mu
 
 I implemented a two-step pipeline to separate **Context Gathering** from **Logical Refinement**.
 
-### 1. Agent A: The Observer (Google Gemini 1.5 Flash)
+### 1. Agent A: The Observer (Google Gemini)
 * **Role:** The "Eyes" and Context Gatherer.
 * **Why Chosen:**
     * **Multimodal Native:** It is the only free-tier model capable of analyzing images (architecture diagrams) and parsing large PDF/Word documents simultaneously.
     * **Rate Limit Optimization:** The system auto-detects the `Flash` variant to ensure high throughput (15 RPM) vs strict Pro limits.
 
-### 2. Agent B: The Architect (Llama 3 via Groq)
+### 2. Agent B: The Architect (Llama via Groq)
 * **Role:** The "Brain" and Strict Enforcer.
 * **Why Chosen:**
     * **Instruction Following:** Llama 3 (8b) is exceptionally good at following negative constraints (e.g., "Do not use conversational filler").
