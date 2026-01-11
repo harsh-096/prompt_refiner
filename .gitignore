@@ -1,0 +1,18 @@
+# Security (NEVER UPLOAD THESE)
+.env
+backend/.env
+
+# Python junk
+__pycache__/
+*.py[cod]
+venv/
+backend/venv/
+
+# Node junk
+node_modules/
+frontend/node_modules/
+dist/
+.DS_Store
+
+# API Keys text files
+keys.txt
